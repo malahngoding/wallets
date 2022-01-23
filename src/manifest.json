@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Instead Wallet",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background/index.ts"
+  },
+  "content_scripts": [
+    {
+      "js": ["content/index.ts"],
+      "matches": ["https://*/*", "http://*/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "pages/popup/index.html"
+  },
+  "options_page": "pages/options/index.html"
+}
