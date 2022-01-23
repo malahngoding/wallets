@@ -1,0 +1,29 @@
+{
+  "name": "@malahngoding/wallets",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "swc ./src/App.tsx -o ./extensions/main.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malahngoding/wallets.git"
+  },
+  "author": "Malah Ngoding Bot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malahngoding/wallets/issues"
+  },
+  "homepage": "https://github.com/malahngoding/wallets#readme",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.2.1",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
