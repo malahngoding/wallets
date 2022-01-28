@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Instead Wallet",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
   "background": {
     "service_worker": "background/index.ts"
   },
